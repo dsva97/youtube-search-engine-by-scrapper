@@ -4,18 +4,13 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "start": "nodemon server.js"
+    "dev": "nodemon index.js",
+    "start": "node index.js"
   },
   "dependencies": {
-    "cheerio": "^1.0.0-rc.10",
     "dotenv": "^10.0.0",
     "express": "^4.17.1",
-    "install": "^0.13.0",
-    "node-fetch": "^2.6.1",
-    "node-html-parser": "^3.3.5",
-    "npm": "^7.16.0",
-    "puppeteer": "^10.0.0",
-    "puppeteer-core": "^10.0.0"
+    "puppeteer": "^10.0.0"
   },
   "devDependencies": {
     "nodemon": "^2.0.7"
